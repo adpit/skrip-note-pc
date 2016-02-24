@@ -1,0 +1,15 @@
+Solution 
+*Click on Start --> Run ---> type diskmgmt.msc and click on OK 
+*Right-click on WD Passport Drive --> Select "Change Drive Letter and Paths..." ---> 
+*Click on "Add" button ---> Select your drive letter and click on OK 
+*Note : If the drive letter is already assigned, then try changing the drive letter by clicking on the "Change" button instead of "Add" button in the above step 
+*If the problem still persists: 
+*Click on Start --> Run --> type regedt32 and click on OK 
+*Registry Editor will be opened 
+*First backup your registry by going to File --> Export 
+*Then expand the following key: 
+*HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E967- E325-11CE-BFC1-08002BE10318} 
+*If you see any upperfilter or lowerfilters entries at the right side, simply delete them. 
+*Close the registry and restart your PC.
+
+REF : http://ccm.net/forum/affich-692251-western-digital-1tb-external-hard-drive-not-recognized-by-pc
