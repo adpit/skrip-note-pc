@@ -4,5 +4,5 @@
 # 20.mkv
 # 80.mkv
 # perintah ini akan merubah seluruh nama file .mkv dengan tambahkan judul yang kita inginkan dengan nomor file / chappter yang sesuai
-# for a in `ls -al | grep .mkv | awk '{print $9}' | sed 's/.mkv//'`; do mv $a "Naruto Shippuuden1 ($a).mkv";done
+for a in `ls -al | grep .mkv | awk '{print $9}' | sed 's/.mkv//'`; do mv $a "Naruto Shippuuden1 ($a).mkv";done
 
